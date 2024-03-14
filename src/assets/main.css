@@ -1,0 +1,39 @@
+@import './base.css';
+
+#app {
+  min-height: 100vh;
+  /* max-width: 1280px; */
+  margin: 0;
+  font-weight: normal;
+}
+
+a, .green {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a, p,
+button,
+input,
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  background: none;
+}
+
+@media (hover: hover) {}
+
+/* @media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
